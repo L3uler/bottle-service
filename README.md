@@ -6,7 +6,7 @@
 A lightweight .NET 5 microservice that I wrote for a Whisky and Wine cellar management app. 
 It allows clients to perform CRUD operations on Bottle resources, the central domain entity for the application.
 
-I've uploaded it to my GitHub as a sample of my back-end development, to showcase a backend service that I architected and built using a range of modern technologies.
+I've uploaded it to my GitHub as a sample of my back-end development, to showcase a back-end service that I architected and built using a range of modern technologies.
 
 ### Technology
 
