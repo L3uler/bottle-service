@@ -1,14 +1,14 @@
 ﻿using FluentValidation;
 using System;
+using WhiskyWine.BottleService.API.Models;
 using WhiskyWine.BottleService.Domain.Enums;
-using WhiskyWine.BottleService.Domain.Models;
 
 namespace WhiskyWine.BottleService.API.Validators
 {
     /// <summary>
     /// Class to perform validation on Bottles that are passed in to the API via the BottlesController.
     /// </summary>
-    public class BottleValidator : AbstractValidator<Bottle>
+    public class BottleValidator : AbstractValidator<BottleApiModel>
     {
         /// <summary>
         /// Constructs an instance of the BottleValidator.
